@@ -11,7 +11,7 @@ client = Face.get_client(
 )
 
 members = open('http://www.akb48.co.jp/about/members/').reduce([]) do |sum, line|
-  if line =~ %r{name=([^"]+)"><img src="([^"]+)"[^>]*alt="([^"]+)"[^>]*>}
+  if line =~ %r{name=([^"]+)"><img src="(http://cache2\.akb48\.co\.jp/img/_member/list/[^"]+)"[^>]*alt="([^"]+)"[^>]*>}
     sum.push [$1, $2, $3]
   else
     sum
