@@ -1,0 +1,4 @@
+face_com:
+  api_key:    "Your API Key"
+  api_secret: "Your API Secret"
+  namespace:  "Your Namespace"

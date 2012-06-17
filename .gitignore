@@ -1,0 +1,4 @@
+*.swp
+/.bundle
+/config/config.yml
+/vendor/bundle
